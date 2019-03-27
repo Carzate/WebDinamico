@@ -66,7 +66,7 @@ export default function savePhoto() {
   d.addEventListener('submit', e => {
     if (e.target.matches('#form-save-photo')) {
       e.preventDefault()
-      //alert('fuinciona')
+      //alert('funciona')
       let photo = e.target.photo.files[0]
 
       if (photo.type.match('image.*')) {
